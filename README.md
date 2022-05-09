@@ -1,1 +1,0 @@
-# Kolkata-Guide-for-Students
