@@ -1,0 +1,345 @@
+body{
+    background-color : #F2ECE1;
+}
+@media only screen and (orientation: landscape){
+
+.info_header{
+    margin-top : 40px;
+    font-size : 200%;
+    font-style : italic;
+    font-family : Helvetica;
+}
+
+#art_menu{
+	position : relative;
+	margin-top : 20px;
+	width : 70%;
+	left : 15%;
+	text-align : center;
+}
+
+#art_menu .blocks{
+	position : relative;
+	width : 33.33%;
+	height : 200px;
+	float : left;
+}
+
+#art_menu .blocks:hover{
+    cursor : pointer;
+    opacity : 0.6;
+    transition : 0.3s;
+    box-shadow: 0 0.5vw 1vw 0 rgba(0, 0, 0, 0.2), 0 0.8vw 2.65vw 0 rgba(0, 0, 0, 0.19);
+}
+
+#art_menu .blocks a{
+	text-decoration : none;
+	color : #423A01;
+}
+#art_menu .blocks:hover .block_text{
+    font-style : normal;    
+}
+
+#art_menu .blocks .block_text{
+	position : relative;
+	display : block;
+	float : left;
+	width : 100%;
+	font-size : 100%;
+	font-weight : lighter;
+	font-style : italic;
+}
+
+#art_menu .blocks img{
+	height : 60%;
+	margin : 0 auto;
+	margin-top : 10px;
+}
+
+#future{
+	position : relative;
+	float : left;
+	margin : 4% 0;
+	width : 100%;
+	height : auto;
+	border-top : 1px solid #423A01;
+	border-bottom : 1px solid #423A01;
+}
+
+#future .text1, #future .text2{
+    width : 100%;
+    text-align : center;
+    position : relative;
+	color : #423A01;
+}
+
+#future .text1{
+    border-top : 1px solid black;
+    padding-top : 60px;
+	font-weight : bold;
+	font-size : 200%;
+}
+#future .text2{
+	font-size : 150%;
+}
+
+#future img{
+	width : 10%;
+	position : relative;
+	float : right;
+	margin-right : 10px;
+	top : 0;
+}
+
+.future_pic{
+    display : none;   
+}
+
+#choice{
+	position : relative;
+	padding-top : 30px;
+	float : left;
+	width : 100%;
+	text-align : center;
+	height : auto;
+	margin : auto;
+}
+
+#choice span{
+	font-size : 130%;
+	width : auto;
+	padding : 10px;
+	border:1px solid grey;
+}
+
+#choice span:hover{
+    cursor : pointer;
+    opacity : 0.7;
+}
+#future #choice #clg{
+	border-top-left-radius : 30px;
+	border-bottom-left-radius : 30px;
+	background-color : #704404;
+	color : #F2ECE1;
+}
+#future #choice #exm{
+	border-top-right-radius : 30px;
+	border-bottom-right-radius : 30px;
+	background-color : #F4D993;
+	color : #776B04;
+}
+
+#future #future_container{
+	position : relative;
+	float : left;
+	margin-top : 70px;
+	margin-bottom : 70px;
+	margin-left : 10%;
+	width : 80%;
+	height : auto;
+}
+#future #future_container .blocks{
+	position : relative;
+	width : 20%;
+	height : auto;
+	float : left;
+	text-align : center;
+}
+#future #future_container .blocks:hover{
+    opacity : 0.7;
+    cursor : pointer;
+    box-shadow: 0 0.5vw 1vw 0 rgba(0, 0, 0, 0.2), 0 0.8vw 2.65vw 0 rgba(0, 0, 0, 0.19);
+    transition : 0.3s;
+}
+#future #future_container .blocks .block_text{
+	position : relative;
+	display : block;
+	float : left;
+	width : 100%;
+	font-size : 15px;
+	word-wrap: break-word;
+	font-weight : bold;
+	margin-top : 5px;
+	color : #423A01;
+}
+#future #future_container .blocks .block_info{
+	position : relative;
+	display : block;
+	float : left;
+	width : 100%;
+	font-size : 17px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	color : #423A01;
+}
+#future #future_container .blocks a{
+	position : relative;
+	text-decoration : none;
+	width : 100%;
+	height : 100%;
+	display : block;
+}
+#future #future_container .blocks img{
+	width : 50%;
+	margin-right : 25%;
+	margin-top : 10px;
+	pointer-event : none;
+}
+
+}
+
+
+@media only screen and (orientation: portrait) {
+body{
+    background-color : #F2ECE1;
+}
+.info_header{
+    display : none;
+}
+#art_menu{
+	margin-top : 4vw;
+	position : relative;
+	width : 90%;
+	left : 5%;
+	text-align : center;
+}
+
+#art_menu .blocks{
+	position : relative;
+	width : 29vw;
+	height : 17vw;
+	margin : .5vw;
+	margin-top : 2%;
+	box-shadow: 0 0.5vw 1vw 0 rgba(0, 0, 0, 0.2), 0 0.8vw 2.65vw 0 rgba(0, 0, 0, 0.19);
+	float : left;
+}
+#art_menu .blocks a{
+	text-decoration : none;
+	color : #423A01;
+}
+#art_menu .blocks .block_text{
+	position : relative;
+	display : block;
+	float : left;
+	width : 100%;
+	font-size : 3vw;
+	font-weight : bold;
+}
+
+#art_menu .blocks img{
+	height : 40%;
+	margin : 0 auto;
+	margin-top : 2vw;
+}
+
+#future{
+	position : relative;
+	float : left;
+	margin : 4vw 0 4vw 0;
+	padding : 2vw 0 4vw 0;
+	width : 100%;
+	height : auto;
+	border-top : 0.3vw solid #423A01;
+	border-bottom : 0.3vw solid #423A01;
+}
+
+#future .text1, #future .text2{
+	padding-left : 4vw;
+	color : #423A01;
+}
+
+#future .text1{
+	font-weight : bold;
+	font-size : 4vw;
+}
+#future .text2{
+	font-size : 3.5vw;
+	padding-bottom : 4vw;
+}
+
+#future img{
+	width : 10%;
+	position : relative;
+	float : right;
+	margin-right : 2vw;
+	top : 0;
+}
+
+#choice{
+	position : relative;
+	padding-top : 2vw;
+	float : left;
+	width : 100%;
+	text-align : center;
+	height : auto;
+	margin : auto;
+}
+#choice span{
+	font-size : 3.5vw;
+	margin-top : 5vw;
+	width : auto;
+	padding : 2vw;
+	border:1px solid grey;
+}
+#future #choice #clg{
+	border-top-left-radius : 4vw;
+	border-bottom-left-radius : 4vw;
+	background-color : #704404;
+	color : #F2ECE1;
+}
+#future #choice #exm{
+	border-top-right-radius : 4vw;
+	border-bottom-right-radius : 4vw;
+	background-color : #F4D993;
+	color : #776B04;
+}
+
+#future #future_container{
+	position : relative;
+	float : left;
+	margin-top : 4vw;
+	width : 100%;
+	height : auto;
+}
+#future #future_container .blocks{
+	position : relative;
+	width : 20%;
+	height : 23vw;
+	float : left;
+	box-sizing:border-box;
+	border : 1px solid #423A01;
+	text-align : center;
+}
+#future #future_container .blocks .block_text{
+	position : relative;
+	display : block;
+	float : left;
+	width : 100%;
+	font-size : 2.1vw;
+	font-weight : bold;
+	margin-top : 1vw;
+	color : #423A01;
+}
+#future #future_container .blocks .block_info{
+	position : relative;
+	display : block;
+	float : left;
+	width : 100%;
+	font-size : 2.7vw;
+	margin-top : 1vw;
+	color : #423A01;
+}
+#future #future_container .blocks a{
+	position : relative;
+	text-decoration : none;
+	width : 100%;
+	height : 100%;
+	display : block;
+}
+#future #future_container .blocks img{
+	width : 50%;
+	margin-right : 25%;
+	margin-top : 2vw;
+	pointer-event : none;
+}
+}

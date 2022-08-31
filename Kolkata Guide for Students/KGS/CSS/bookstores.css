@@ -1,0 +1,166 @@
+body{
+	background-color : #F2ECE1;
+}
+
+#page{
+    position : relative;
+    top : 70px;
+}
+
+h1{
+    text-align : center;
+    color : #423A01;
+    font-size : 30px;
+    font-style : italic;
+}
+
+#page_number{
+    display : block;
+    position : fixed;
+    bottom : 0px;
+    width : 100%;
+    background-color : #423A01;
+}
+
+#page_number a{
+    color : #F2ECE1;
+    font-size : 17px;
+    margin : 0 3px;
+    text-decoration : none;
+}
+
+.course_container{
+    background-color : #423A01;
+    text-align : center;
+    width : 80%;
+    margin-left : 10%;
+    margin-top : 10px;
+    padding : 10px 0;
+    border-radius : 5px;
+    display : block;
+}
+
+.course_container ul{
+    display : inline-flex;
+    list-style-type : none;
+    width : 100%;
+}
+
+.course_container ul li{
+    width : 100%;
+    display : block;
+}
+
+.course_container ul li a{
+    display : block;
+    color : #F2ECE1;
+    text-decoration : none;
+}
+
+.course_container ul li:hover{
+    cursor : pointer;
+}
+
+.sub_menu{
+    z-index : 100;
+    display : none;
+    position : absolute;
+    width : 80%;
+    height : 200px;
+    overflow-y : scroll;
+    background-color : #423A01;
+    text-align : left;
+    margin-top : 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.sub_menu ul li{
+    border : 1px solid black;
+    background-color : #F2ECE1;
+    width : 100%;
+    padding : 5px 10px;
+    box-sizing : border-box;
+}
+
+.sub_menu ul li:hover{
+    opacity : 0.7;
+}
+
+.sub_menu ul li a{
+    display : block;
+    color : #423A01;
+}
+
+.sub_menu ul{
+    display : block;
+    width : 100%;
+}
+
+#error{
+    font-size : 30px;
+    text-align : center;
+}
+
+#error a{
+    font-size : 17px;
+    padding : 10px;
+    text-align : center;
+    background-color : #423A01;
+    color : #F2ECE1;
+    border-radius : 3px;
+    width : auto;
+    text-decoration : none;
+}
+.block{
+    position : relative;
+    margin-top : 10px;
+    width : 60%;
+    margin-left : 20%;
+    padding : 10px;
+    border : 2px solid #423A01;
+    background-color : #F2ECE1;
+    color : #423A01;
+    border-radius : 3px;
+    box-sizing : border-box;
+}
+
+.block .header{
+    font-size : 30px;
+    font-style : italic;
+    display : inline-block;
+}
+.block .description{
+    font-size : 24px;
+}
+
+.block .background{
+    position : relative;
+    width : 100%;
+    max-height : 300px;
+    object-fit : cover;
+    object-position: 0 0;
+}
+.block a{
+    display : inline-block;
+    text-decoration : none;
+    font-size : 15px;
+    width : 100%;
+    text-align : center;
+    padding : 10px 0;
+    border-radius : 5px;
+    background-color : #423A01;
+    color : #F2ECE1;
+    margin-top : 5px;
+    box-sizing : border-box;
+}
+
+.block a:hover{
+    cursor : pointer;
+    opacity : 0.7;
+}
+
+#form button:hover{
+    opacity : .7;
+    transition : .3s;
+    cursor : pointer;
+}

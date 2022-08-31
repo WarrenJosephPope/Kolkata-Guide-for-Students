@@ -1,0 +1,96 @@
+body{
+    background-color : #F2ECE1;
+}
+
+#page{
+    position : relative;
+    top : 70px;
+}
+
+h1{
+    text-align : center;
+    color : #423A01;
+    font-size : 30px;
+    font-style : italic;
+}
+
+form{
+    width : 60%;
+    padding : 20px 10px;
+    margin-top : 10px;
+    margin-left : 20%;
+    box-sizing : border-box;
+    border : 1px solid #423A01;
+    border-radius : 20px;
+}
+
+form input[type=text], form input[type=tel], form input[type=email], form textarea, form select{
+    margin : 10px 0;
+    width : 100%;
+    box-sizing : border-box;
+    padding : 5px 5px;
+}
+
+form textarea{
+    height : 200px;
+}
+
+form button{
+    width : 100%;
+    padding : 10px;
+    background-color : #423A01;
+    color : #F2ECE1;
+    font-size : 15px;
+    box-sizing : border-box;
+    border : none;
+    border-radius : 3px;
+}
+
+form button:hover{
+    cursor : pointer;
+    opacity : 0.7;
+}
+
+form #rating{
+    position : relative;
+    margin : 10px 0;
+    box-sizing : border-box;
+    transform : rotateY(180deg);
+    display : flex;
+}
+
+form #rating input{
+    display : none;
+}
+
+#rating label{
+    display : block;
+    cursor : pointer;
+    width : 30px;
+}
+
+#rating label:before{
+    content : '\f005';
+    font-family : fontAwesome;
+    position : relative;
+    display : block;
+    font-size : 30px;
+    color : black;
+}
+
+#rating label:after{
+    content : '\f005';
+    font-family : fontAwesome;
+    position : absolute;
+    display : block;
+    font-size : 30px;
+    color : #FFD700;
+    opacity : 0;
+    top : 0;
+    transition : 0.5s;
+    text-shadow : 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#rating label:hover:after, #rating label:hover ~ label:after, #rating input:checked ~ label:after{
+    opacity : 1;
+}

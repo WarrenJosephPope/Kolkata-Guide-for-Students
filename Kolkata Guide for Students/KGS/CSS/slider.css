@@ -1,0 +1,47 @@
+#container{
+	width : 100%;
+	overflow : hidden;
+}
+#container #slideshow{
+	width : 400%;
+	position : relative;
+	animation:slider 10s infinite linear;
+}
+#container #slideshow div{
+	height : 100%;
+}
+#container #slideshow img{
+	position:relative;
+	float : left;
+	width : 25%;
+	pointer-events : none;
+}
+@keyframes slider{
+	0%{
+		left : 0%;
+	}
+	27%{
+		left : 0%;
+	}
+	33%{
+		left : -100%;
+	}
+	61%{
+		left : -100%;
+	}
+	66%{
+		left : -200%;
+	}
+	95%{
+		left : -200%;
+	}
+	100%{
+		left : -300%;
+	}
+}
+@media only screen and (orientation: landscape) {
+    #container{
+        position : relative;
+    }
+    }
+}

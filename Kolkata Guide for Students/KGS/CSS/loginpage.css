@@ -1,0 +1,154 @@
+body{
+	background-color : #F2ECE1;
+}
+    
+.form_text a{
+    color : #776B04;
+}
+#register{
+	display : none;
+}
+
+@media only screen and (orientation: portrait) {
+    .form_holder{
+    	text-align : center;
+    	position : relative;
+    	width : 60%;
+    	margin : 10vw 10%;
+    	padding : 4vw 10vw 6vw 10vw;
+    	background-color : #F4D993;
+    	color : #776B04;
+    }
+    .error{
+        text-align : center;
+    	position : relative;
+    	width : 60%;
+    	font-size : 5vw;
+    	margin : 10vw 10%;
+    	padding : 4vw 10vw 6vw 10vw;
+    	background-color : #F4D993;
+    	color : red;
+    }
+    .form_holder .form_heading{
+    	font-size : 5vw;
+    	font-weight : bold;
+    }
+    
+    .form_holder input, .gender{
+    	padding-left : 2vw;
+    	background-color : #F2ECE1;
+    	color : #776B04;
+    }
+    
+    .form_holder .gender option{
+        border : 0;
+    }
+    
+    .form_holder button{
+    	background-color : #423A01;
+    	color : #F2ECE1;
+    	font-size : 4.5vw;
+    	border : 0;
+    	box-sizing: border-box;
+    	height : 10vw;
+    	width : 100%;
+    	margin: 2vw 0;
+    }
+    .form_holder .form_text{
+    	position : relative;
+    	font-size : 4vw;
+    	margin-top : 2vw;
+    	color : #423A01;
+    	font-weight : normal;
+    }
+    
+    .signuperror{
+        color : red;
+        font-size : 3.7vw;
+    }
+    
+    .form_holder input, .gender{
+    	border : 0;
+    	box-sizing: border-box;
+    	height : 10vw;
+    	width : 100%;
+    	margin-top : 2vw;
+    	border-radius : .7vw;
+    	font-size : 3.7vw;
+    }
+}
+
+@media only screen and (orientation : landscape){
+    .form_holder{
+        position : relative;
+        top : 70px;
+        background-color : #F4D993;
+    	color : #776B04;
+        width : 60%;
+        left : 20%;
+        padding : 20px;
+        border-radius : 30px;
+    }
+    .error{
+        position : relative;
+        top : 70px;
+        margin-bottom : 10px;
+        border-radius : 30px;
+        text-align : center;
+        font-size : 30px;
+    	background-color : #F4D993;
+    	color : red;
+    	width : 60%;
+    	padding : 20px;
+    	margin-left : 20%;
+    }
+    .form_holder .form_heading{
+    	font-size : 30px;
+    }
+    label{
+        color : #F2ECE1;
+    }
+    label, input{
+        margin : 10px 0;
+        box-sizing : border-box;
+    }
+    input[type=checkbox], input[type=radio]{
+        margin : 10px 10px;
+    }
+    input[type=text], input[type=number], input[type=email], input[type=password], input[type=date], input[type=tel], select{
+        width : 100%;
+        font-size : 20px;
+        padding : 4px;
+        margin-left : -2px;
+        border : none;
+        box-sizing : border-box;
+    }
+    label{
+        font-size : 25px;
+        font-style : italic;
+    }
+    
+    input[type=file]{
+        font-size : 20px;
+        background-color : #F2ECE1;
+        width : 100%;
+        box-sizing : border-box;
+    }
+    button{
+        width : 100%;
+        font-size : 25px;
+        margin : 10px 0;
+        font-style : italic;
+        color : #423A01;
+        border : none;
+        box-sizing : border-box;
+        background-color : #F2ECE1;
+    }
+    button:hover{
+        cursor : pointer;
+        opacity : 0.7;
+    }
+    .form_text a:hover{
+        cursor : pointer;
+    }
+}

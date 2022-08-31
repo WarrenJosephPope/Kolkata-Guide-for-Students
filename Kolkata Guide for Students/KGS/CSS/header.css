@@ -1,0 +1,64 @@
+#header{
+	position : relative;
+	top : 0;
+	width : 100%;
+	line-height : 50px;
+	background-color : #423A01;
+}
+#logo{
+    width : 80%;
+	color : #F2ECE1;
+	margin-left : 20px;
+	font-size : 30px;
+	display : inline-block;
+}
+#logo:hover{
+    cursor:pointer;
+}
+#header #search{
+    position : relative;
+    top : 0;
+	float : right;
+	display : inline-block;
+	height : 30px;
+	width : 30px;
+	text-align : center;
+	margin-right : 20px;
+}
+#header img{
+	height : 30px;
+	margin-top : 10px;
+}
+
+@media only screen and (orientation: portrait) {
+#header{
+	position : relative;
+	top : 0;
+	width : 100%;
+	line-height : 10vw;
+	background-color : #423A01;
+}
+
+#logo{
+    width : 80vw;
+	color : #F2ECE1;
+	margin-left : 10vw;
+	font-size : 4vw;
+	display : inline-block;
+}
+
+#header #search{
+    position : absolute;
+    top : 0;
+	float : right;
+	display : inline-block;
+	height : 10vw;
+	width : 10vw;
+	text-align : center;
+}
+
+#header img{
+	height : 4vw;
+	margin : 3vw 0 0 0;
+}
+}

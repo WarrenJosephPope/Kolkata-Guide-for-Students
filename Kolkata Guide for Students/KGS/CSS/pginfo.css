@@ -1,0 +1,122 @@
+body{
+    background-color : #F2ECE1;
+}
+
+#page{
+    position : relative;
+    margin-top : 70px;
+    width : 100%;
+}
+
+.block{
+    width : 80%;
+    margin-left : 10%;
+    padding : 10px;
+    border : 2px solid #423A01;
+    background-color : #F2ECE1;
+    color : #423A01;
+    border-radius : 3px;
+}
+
+.block .header{
+    font-size : 30px;
+    font-style : italic;
+}
+#bas_det .desc{
+    font-size : 17px;
+}
+
+.block table{
+    border-top : 1px solid #423A01;
+    width : 100%;
+}
+
+#amenity table .icon{
+    width : 30px;
+    height : 30px;
+    background-color : #423A01;
+    padding : 3px;
+    border-radius : 3px;
+}
+
+#amenity td{
+    width : 20%;
+}
+#bas_det td{
+    width : 25%;
+    line-height : 30px;
+    font-size : 17px;
+}
+
+
+#error{
+    font-size : 30px;
+    text-align : center;
+}
+
+#error a{
+    font-size : 17px;
+    padding : 10px;
+    text-align : center;
+    background-color : #423A01;
+    color : #F2ECE1;
+    border-radius : 3px;
+    width : auto;
+    text-decoration : none;
+}
+
+#gallery table{
+    border : none;
+}
+
+#gallery table td{
+    width : 25%;
+}
+
+#gallery table td img{
+    width : 100%;
+}
+
+#form{
+    width : 50%;
+    margin-left : 25%;
+    font-size : 20px;
+    background-color : #423A01;
+    border-radius : 5px;
+    color : #F2ECE1;
+    padding : 10px;
+}
+#form input{
+    width : 100%;
+    border : none;
+    font-size : 17px;
+    padding-left : 4px;
+    margin-left : -2px;
+}
+
+#form textarea{
+    width : 100%;
+    border : none;
+    height : 150px;
+    font-size : 17px;
+    resize : vertical;
+}
+
+#form button{
+    font-size : 20px;
+    width : 100%;
+    border-radius : 5px;
+    color : #423A01;
+    background-color : #F2ECE1;
+    margin-top : 5px;
+}
+
+#form button:hover{
+    opacity : .7;
+    transition : .3s;
+    cursor : pointer;
+}
+
+#gallery1{
+    margin-top : 10px;
+}
