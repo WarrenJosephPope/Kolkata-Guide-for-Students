@@ -1,0 +1,2 @@
+#About
+Kolkata Student Guide is a search engine website for students. The objective behind developing this website is to help outstation students who wish to study in Kolkata. It provides information about colleges in Kolkata, the courses they offer, admission dates and placements offered. Detailed information about paying guest accomodation is also provided in the website.
